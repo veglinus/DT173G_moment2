@@ -58,3 +58,8 @@ exports.default = series(
     parallel(copyhtml, minifyJS, minifyCSS, minifyIMGS),
     watchTask
 )
+
+exports.copyhtml = copyhtml;
+exports.minifyJS = minifyJS;
+exports.minifyCSS = minifyCSS;
+exports.minifyIMGS = minifyIMGS;
