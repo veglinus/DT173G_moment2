@@ -16,6 +16,12 @@ Konkatenerar alla css och javascript filer i mappen src. Kopierar sedan dessa ny
 
 Det finns inga PNGs i src/imgs, men det går ändå att minifiera dessa om man vill. Bara att lägga in i mappen så fixas det.
 
+**Det finns följande funktioneri gulpfile.js:**
+* copyhtml - Kopierar över html filer till pub
+* minifyJS - Minifierar och kombinerar JavaScript filer och kopierar över till pub
+* minifyCSS - Minifierar och kombinerar CSS filer och kopierar över till pub
+* minifyIMGS - Optimerar bilder till mindre storlek och kopierar över till pub
+
 ### För att klona och köra projektet, gör följande kommandon
 
 All in one(ladda ner, init och kör):
