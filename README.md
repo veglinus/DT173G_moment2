@@ -27,7 +27,7 @@ git clone https://github.com/veglinus/DT173G_moment2.git && cd DT173G_moment2 &&
 En i taget:
 
 ```
-git clone git clone https://github.com/veglinus/DT173G_moment2.git
+git clone https://github.com/veglinus/DT173G_moment2.git
 cd DT173G_moment2
 npm install
 gulp
