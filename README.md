@@ -19,10 +19,15 @@ Det finns inga PNGs i src/imgs, men det går ändå att minifiera dessa om man v
 ### För att klona och köra projektet, gör följande kommandon
 
 All in one(ladda ner, init och kör):
-  git clone https://github.com/veglinus/DT173G_moment2.git && cd DT173G_moment2 && npm install && gulp
-  
+
+```git clone https://github.com/veglinus/DT173G_moment2.git && cd DT173G_moment2 && npm install && gulp
+
+```
+
 En i taget:
-  git clone git clone https://github.com/veglinus/DT173G_moment2.git
-  cd DT173G_moment2
-  npm init
-  gulp
+
+```git clone git clone https://github.com/veglinus/DT173G_moment2.git
+cd DT173G_moment2
+npm init
+gulp
+```
