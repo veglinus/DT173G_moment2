@@ -13,10 +13,12 @@ Konkatenerar alla css och javascript filer i mappen src. Kopierar sedan dessa ny
 * Gulp-uglify-es - minifiera javascript
 * Gulp-clean-css - minifiera CSS
 * Gulp-imagemin - minifiera bilder, optimera kvalitén på dem
+* Browser-sync - för att synkronisera webbläsaren med filerna och köra live reload
 
 Det finns inga PNGs i src/imgs, men det går ändå att minifiera dessa om man vill. Bara att lägga in i mappen så fixas det.
 
-**Det finns följande funktioneri gulpfile.js:**
+**Det finns följande funktioner i gulpfile.js:**
+
 * copyhtml - Kopierar över html filer till pub
 * minifyJS - Minifierar och kombinerar JavaScript filer och kopierar över till pub
 * minifyCSS - Minifierar och kombinerar CSS filer och kopierar över till pub
